@@ -18,9 +18,8 @@ exports.ProductCreate = async (req, res) => {
 }
 
 exports.GetSingleProduct = async (req, res) => {
-    const { id } = req.params;
     try {
-        const product = await ProductModel.findById({id})
+        const product = await ProductModel.findById(req.params.id)
         if (!product) {
             return res.status(400).json({ status: "fail", data: `${id} product not found` });
         }

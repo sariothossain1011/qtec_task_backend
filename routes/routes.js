@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const { ProductCreate, GetSingleProduct, GetAllProducts } = require("../controllers/ProductController");
 const router = express.Router();
