@@ -32,7 +32,7 @@ exports.GetSingleProduct = async (req, res) => {
 
 }
 
-exports.GetAllProducs = async (req, res) => {
+exports.GetAllProducts = async (req, res) => {
     try {
         const products = await ProductModel.find();
         if (!products) {
