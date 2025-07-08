@@ -58,6 +58,14 @@ MONGO_URI=your_mongodb_connection_string
 ```bash
 npm run start
 ```
+---
+
+## 🔗 Postman Link
+
+👉 [Postman publish link](https://documenter.getpostman.com/view/30850571/2sB34cqPJr)  
+
+---
+
 ## 📄 API Endpoints
 
 | Method | Endpoint                     | Description                         |
