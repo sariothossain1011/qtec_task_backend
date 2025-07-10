@@ -40,7 +40,7 @@ This backend provides a simple REST API to support the frontend e-commerce appli
 
 ```bash
 git clone https://github.com/sariothossain1011/qtec_task_backend.git
-cd qtec-task-frontend
+cd qtec_task_backend
 ```
 ### 2. Install Dependencies
 
